@@ -4,7 +4,7 @@ UISNet is designed to interpret the feature importance of the cancer outcomes pr
 
 
 # Usage
-Before using, please unzip captur.rar in the current folder. The datasets aboout the gene expression and pathway information are stored in my_dataset folder. The output about the patients' risks, CI values and the IG scores with the Monte Carlo dropout are givwn in the result_all folder.
+Before using, please unzip captur.rar in the current folder. The datasets aboout the gene expression and pathway information are stored in my_dataset folder. The output of the patients' risks, CI values and the IG scores with the Monte Carlo dropout are given in the result_all folder.
 
 # Example
 Due to file size constraints, here we give an example data: brca_test.csv (expression data) and pathway_mask (pathway information) used for NISNet.py. Users can build data as the format of the example. The main program UISNet.py can be used for cancer outcomes prediction.
